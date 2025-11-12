@@ -103,6 +103,11 @@ ul {
   width: 360px;
 }
 
+.card__title {
+}
+.card__text {
+}
+
 .card__footer {
   margin-top: auto;
 }
