@@ -347,36 +347,26 @@ ul {
   font-family: Arial, sans-serif;
 }
 
-/* ===== COLUNAS ===== */
 .footer__columns {
   display: flex;
-  justify-content: space-between; /* deixa as 3 colunas lado a lado */
-  align-items: flex-start; /* alinha pelo topo */
+  justify-content: space-between;
+  align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 }
-
-/* Cada coluna */
-.footer__column {
-  margin: 0 30px; /* total 60px entre colunas (exatamente como no esquema) */
-}
-
-/* ===== LOGO ===== */
 .footer__logo {
-  width: 58px; /* medidas exatas do esquema */
+  width: 58px;
   height: 80px;
   object-fit: contain;
 }
 
-/* ===== TÍTULOS DAS COLUNAS ===== */
 .footer__column-heading {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px; /* igual ao esquema */
+  margin-bottom: 10px;
 }
 
-/* ===== LISTAS ===== */
 .footer__list {
   padding: 0;
   margin: 0;
@@ -386,37 +376,32 @@ ul {
 }
 
 .footer__list-item {
-  margin-bottom: 10px; /* espaço entre linhas (10px no esquema) */
+  margin-bottom: 10px;
   font-size: 16px;
 }
 
-/* ===== HORÁRIOS ===== */
 .footer__column_content_hours h3 {
-  max-width: 209px; /* largura do título no esquema */
+  max-width: 209px;
 }
 
 .footer__column_content_hours .footer__list-item {
-  max-width: 169px; /* correspondendo ao layout */
+  max-width: 169px;
 }
 
-/* ===== REDES SOCIAIS ===== */
 .footer__column-link {
   display: flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px;
   text-decoration: none;
   color: #fff;
 }
 
-/* Ícones: 16x16px exatos */
 .footer__social-icon {
   width: 16px;
   height: 16px;
 }
-
-/* ===== COPYRIGHT ===== */
 .footer__copyright {
-  margin-top: 100px; /* distância entre logo e copyright — exatamente como no esquema */
+  margin-top: 100px;
   font-size: 14px;
   text-align: left;
 }
