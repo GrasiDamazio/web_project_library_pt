@@ -339,21 +339,15 @@ ul {
   margin: 10px 0 0;
 }
 
-/* ===== FOOTER ===== */
 .footer {
-  background-color: #111; /* fundo escuro */
-  padding: 80px 0; /* 80px em cima e embaixo (está no esquema) */
+  background-color: #111;
+  padding: 60px 80px;
   color: #fff;
   font-family: Arial, sans-serif;
 }
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
 }
 .footer__logo {
   width: 58px;
@@ -364,7 +358,7 @@ ul {
 .footer__column-heading {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -373,15 +367,16 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .footer__list-item {
-  margin-bottom: 10px;
   font-size: 16px;
 }
 
-.footer__column_content_hours h3 {
-  max-width: 209px;
+.footer__column_content_hours {
+  margin-left: auto;
+  margin-right: 80px;
 }
 
 .footer__column_content_hours .footer__list-item {
