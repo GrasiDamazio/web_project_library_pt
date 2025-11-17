@@ -293,3 +293,130 @@ ul {
   font-size: 14px;
   margin: 0;
 }
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #111; /* fundo escuro */
+  padding: 80px 0; /* 80px em cima e embaixo (está no esquema) */
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== COLUNAS ===== */
+.footer__columns {
+  display: flex;
+  justify-content: space-between; /* deixa as 3 colunas lado a lado */
+  align-items: flex-start; /* alinha pelo topo */
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Cada coluna */
+.footer__column {
+  margin: 0 30px; /* total 60px entre colunas (exatamente como no esquema) */
+}
+
+/* ===== LOGO ===== */
+.footer__logo {
+  width: 58px; /* medidas exatas do esquema */
+  height: 80px;
+  object-fit: contain;
+}
+
+/* ===== TÍTULOS DAS COLUNAS ===== */
+.footer__column-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px; /* igual ao esquema */
+}
+
+/* ===== LISTAS ===== */
+.footer__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list-item {
+  margin-bottom: 10px; /* espaço entre linhas (10px no esquema) */
+  font-size: 16px;
+}
+
+/* ===== HORÁRIOS ===== */
+.footer__column_content_hours h3 {
+  max-width: 209px; /* largura do título no esquema */
+}
+
+.footer__column_content_hours .footer__list-item {
+  max-width: 169px; /* correspondendo ao layout */
+}
+
+/* ===== REDES SOCIAIS ===== */
+.footer__column-link {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Ícones: 16x16px exatos */
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* ===== COPYRIGHT ===== */
+.footer__copyright {
+  margin-top: 100px; /* distância entre logo e copyright — exatamente como no esquema */
+  font-size: 14px;
+  text-align: left;
+}
