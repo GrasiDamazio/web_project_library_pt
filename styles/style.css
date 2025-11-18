@@ -379,10 +379,6 @@ ul {
   margin-right: 80px;
 }
 
-.footer__column_content_hours .footer__list-item {
-  max-width: 169px;
-}
-
 .footer__column-link {
   display: flex;
   align-items: center;
