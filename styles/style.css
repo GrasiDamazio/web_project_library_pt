@@ -99,7 +99,7 @@ ul {
 }
 
 .card {
-  height: 420px;
+  min-height: 420px;
   width: 360px;
 }
 
@@ -377,6 +377,10 @@ ul {
 .footer__column_content_hours {
   margin-left: auto;
   margin-right: 80px;
+}
+
+.footer__column_content_hours .footer__list-item {
+  max-width: 169px;
 }
 
 .footer__column-link {
