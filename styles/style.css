@@ -376,7 +376,6 @@ ul {
 
 .footer__column_content_hours {
   margin-left: auto;
-  margin-right: 80px;
 }
 
 .footer__column_content_hours .footer__list-item {
@@ -384,6 +383,7 @@ ul {
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__column-link {
