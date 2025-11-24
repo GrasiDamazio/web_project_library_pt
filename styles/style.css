@@ -376,14 +376,11 @@ ul {
 
 .footer__column_content_hours {
   margin-left: auto;
-}
-
-.footer__column_content_hours .footer__list-item {
-  max-width: 169px;
+  margin-right: 80px;
 }
 
 .footer__column_content_social {
-  margin-left: 80px;
+  max-width: 169px;
 }
 
 .footer__column-link {
