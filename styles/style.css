@@ -383,6 +383,10 @@ ul {
   max-width: 169px;
 }
 
+.content .footer__column_content_social {
+  margin-right: 80px;
+}
+
 .footer__column-link {
   display: flex;
   align-items: center;
@@ -395,6 +399,7 @@ ul {
   width: 16px;
   height: 16px;
 }
+
 .footer__copyright {
   margin-top: 100px;
   font-size: 14px;
